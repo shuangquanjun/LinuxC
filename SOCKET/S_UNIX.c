@@ -28,7 +28,7 @@ int main(void)
 		//set server addr_param 
 		srv_addr.sun_family=AF_UNIX; 
 		strncpy(srv_addr.sun_path,UNIX_DOMAIN,sizeof(srv_addr.sun_path)-1); 
-		unlink(UNIX_DOMAIN); 
+		//unlink(UNIX_DOMAIN); 
 		
 		//bind sockfd & addr 
 		ret=bind(listen_fd,(struct sockaddr*)&srv_addr,sizeof(srv_addr)); 
