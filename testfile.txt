@@ -1,0 +1,6 @@
+test case 1
+	turn off the switch
+test case 2 
+	tun on the switch
+test case3 
+	switch on/off 50 times
